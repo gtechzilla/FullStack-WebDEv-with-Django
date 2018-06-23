@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Excercise 3</title>
+    </head>
+    <body>
+        <form action="thanks.html" method="get">
+             <h1>Course Sign Up Page</h1>
+             <p>Please Note:First Name,Last Name,Password, and Email are required.</p>
+             <p>
+             <label for='first_name'>First Name:</label>
+                 <input id="first_name" type="text" name="name1" placeholder="First Name" required></input>
+             <label for='last_name'>Last Name:</label>
+                 <input id="last_name" type="text" name="name2" placeholder="Last Name" required></input>
+             </p>
+             <p>
+             <label for='user_email'>Email:</label>
+                 <input id="user_email" type="email" name="useremail" placeholder="name@email.com" required></input>
+             <label for='user_password'>Password:</label>
+                 <input id="user_password" type="password" name="passwd" required></input>
+            </p>
+            <p>Are you over the age of 18?</p>
+            <label for='age_yes'>Yes</label>
+                <input id="age_yes" type="radio" name="age"></input>
+            <label for='age_no'>No</label>
+                <input id="age_no" type="radio" name="age"></input>
+            <p>Do you have a Credit Card or Paypal?</p>
+            <p>
+                <select name="paying method">
+                    <option vlaue="Credit Card">Credit Card</option>
+                    <option value="Paypal">Paypal</option>
+                </select>
+            </p>
+            <p>
+            <label for='submission'></label>
+                <input type="submit" name="submit" value="Sign Up"></input>
+            </p>
+        </form>
+    </body>
+</html>
