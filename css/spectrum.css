@@ -1,0 +1,29 @@
+p{
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+.table{
+    margin:auto;
+}
+td{
+    background-color: blue;
+    height: 300px;
+    width:150px;
+    border: 6px solid white;
+}
+
+#one{
+    background-color: #f18f01;
+}
+#two{
+    background-color: #048ba8;
+}
+#three{
+    background-color: #2e4057;
+}
+#four{
+    background-color: #99c24d;
+}
+#five{
+    background-color: #2f2d2e;
+}
