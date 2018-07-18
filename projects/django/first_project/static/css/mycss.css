@@ -1,3 +1,6 @@
 h1{
-    color: aqua
+    color: aqua;
+}
+table,th,td{
+    border:2px solid black;
 }
