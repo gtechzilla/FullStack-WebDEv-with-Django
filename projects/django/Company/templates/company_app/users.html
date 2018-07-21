@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>User Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>These are the detail of the customers</h1>
+    {% if User_Details %}
+        <ol>
+            {% for customer in User_Details %}
+            <li>Customer Details</li>
+                <ul>
+                    <li>First Name: {{ customer.First_Name }}</li>
+                    <li>Last Name: {{ customer.Last_Name }}</li>
+                    <li>Email: {{ customer.Email }}</li>
+                </ul>
+            {% endfor %}
+        </ol>
+
+    {% endif %}
+</body>
+</html>

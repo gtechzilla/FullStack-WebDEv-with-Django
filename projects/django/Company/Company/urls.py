@@ -18,7 +18,8 @@ from django.contrib import admin
 from company import views
 
 urlpatterns = [
+
+    url(r'^$',views.home,name='home'),
     url(r'^admin/', admin.site.urls),
-    url(r'^home/',views.home,name='home'),
     url(r'^users/',include('company.urls')),
 ]
