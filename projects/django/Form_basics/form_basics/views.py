@@ -8,7 +8,7 @@ def index(request):
 def form_name_view(request):
     form =forms.FormName()
 
-    if request == 'POST':
+    if request.method == 'POST':
         form=forms.FormName(request.POST)
 
 
